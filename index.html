@@ -626,6 +626,7 @@ document.getElementById('rsvp-form').addEventListener('submit', function(e) {
     var fname = block.querySelector('[name="guest_' + id + '_fname"]').value.trim();
     var lname = block.querySelector('[name="guest_' + id + '_lname"]').value.trim();
     var email = block.querySelector('[name="guest_' + id + '_email"]').value.trim();
+    var phone = block.querySelector('[name="guest_' + id + '_phone"]').value.trim();
     guests.push({
       name:  fname + ' ' + lname,
       email: email
